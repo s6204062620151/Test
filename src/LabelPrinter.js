@@ -1,5 +1,6 @@
 import React from 'react';
 import { useReactToPrint } from 'react-to-print';
+import './print.css'; // Import the CSS file
 
 function LabelPrinter({ labelRef }) {
   const handlePrint = useReactToPrint({
